@@ -80,7 +80,7 @@ const EONET = () => {
                                     <option value="seaLakeIce">Sea and Lake Ice</option>
                                     <option value="severeStorms">Severe Storms</option>
                                     <option value="snow">Snow</option>
-                                    <option value="tempExtremes">Temperatre Extremes</option>
+                                    <option value="tempExtremes">Temperature Extremes</option>
                                     <option value="volcanoes">Volcanoes</option>
                                     <option value="waterColor">Water Color</option>
                                     <option value="wildfires">Wildfires</option>

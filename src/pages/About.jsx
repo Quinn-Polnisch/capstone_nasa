@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div className="flex justify-center w-2/3">
           <div className="bg-white bg-opacity-50 rounded m-5 py-3 px-5 text-justify text-xl shadow-lg shadow-indigo-900">
-            This is a collection of different NASA APIs. There are two of NASA's many APIs fetured, including
+            This is a collection of different NASA APIs. There are two of NASA's many APIs featured, including
             the Astronomy Picture of the Day or APOD, Home Page Background; and the Earth Observatory Natural Event Tracker or 
             EONET.
           </div>
