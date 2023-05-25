@@ -103,7 +103,7 @@ function Navbar() {
                                 from-indigo-900 via-blue-500 to-orange-500 bg-opacity-75 rounded justify-center 
                                 text-white hover:text-slate-300 hover:bg-orange-500">
                                     <div>
-                                        <Link to='/about' className="flex place-items-center lg:inline-block text-l">
+                                        <Link to='/' className="flex place-items-center lg:inline-block text-l">
                                             Logout
                                         </Link>
                                     </div>
