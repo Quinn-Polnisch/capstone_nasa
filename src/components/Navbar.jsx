@@ -98,6 +98,17 @@ function Navbar() {
                                     </div>
                             </button>
                             <button 
+                                onClick={clicked}
+                                className="p-3 m-5 border-2 border-white hover:border-slate-300 bg-gradient-to-t 
+                                from-indigo-900 via-blue-500 to-orange-500 bg-opacity-75 rounded justify-center 
+                                text-white hover:text-slate-300 hover:bg-orange-500">
+                                    <div>
+                                        <Link to='/profile' className="flex place-items-center lg:inline-block text-l">
+                                            Profile
+                                        </Link>
+                                    </div>
+                            </button>
+                            <button 
                                 onClick={ () => { signOutOnClick() }}
                                 className="p-3 m-5 border-2 border-white hover:border-slate-300 bg-gradient-to-t 
                                 from-indigo-900 via-blue-500 to-orange-500 bg-opacity-75 rounded justify-center 

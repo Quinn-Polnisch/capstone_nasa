@@ -1,6 +1,7 @@
 import Home from "../pages/Home";
 import About from "../pages/About";
 import EONET from "../pages/EONET";
+import Profile from "../pages/Profile";
 
 const routes = [
     {
@@ -20,6 +21,11 @@ const routes = [
         component: EONET,
         name: "EONET"
     },
+    {
+        path: "/profile",
+        component: Profile,
+        name: "Profile"
+    }
 ]
 
 export default routes

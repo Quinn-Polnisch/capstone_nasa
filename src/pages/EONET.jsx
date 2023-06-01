@@ -49,7 +49,8 @@ const EONET = () => {
 
   return (
         <div
-            className="flex flex-col justify items-center h-screen bg-orange-500 bg-cover bg-fixed">
+            style={{backgroundColor: "rgb(249 115 22)"}}
+            className="flex flex-col justify items-center h-screen mx-auto bg-cover bg-fixed">
             <div className="flex flex-col justify-center w-1/2 mt-5">
                 <div
                     className="bg-white bg-opacity-50 rounded m-5 py-3 px-5 shadow-lg shadow-indigo-900 text-xl text-center"

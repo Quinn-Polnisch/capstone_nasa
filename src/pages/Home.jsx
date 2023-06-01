@@ -1,6 +1,7 @@
 import Background from "../components/Background"
 
 const Home = () => {
+  // console.log(Background());
     return (
         <div 
             style={{ backgroundImage: `url(${Background()})`}}
